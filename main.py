@@ -26,7 +26,7 @@ class MainWindow(QMainWindow):
 
     def draw_ellipse(self, qp):
         qp.setBrush(QColor(255, 255, 0))
-        radius = randrange(10, 200)
+        radius = randrange(10, 190)
         coords = randrange(800), randrange(500)
         qp.drawEllipse(coords[0] - radius, coords[1] - radius, 2 * radius, 2 * radius)
 
